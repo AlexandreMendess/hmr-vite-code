@@ -1,0 +1,21 @@
+.list-flex {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  list-style-type: none;
+}
+
+.list-flex li {
+  border: 2px solid #ccc;
+  padding: 10px;
+  height: 100%;
+  max-height: 200px;
+  margin: 1.5rem 0rem;
+}
+
+.form-center {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
